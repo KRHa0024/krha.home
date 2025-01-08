@@ -1,5 +1,10 @@
 <template>
-  <div class="flex h-screen items-center justify-center bg-gray-800">
-    <p class="font-bold">Hello Tailwind</p>
-  </div>
+  <default>
+    <index />
+  </default>
 </template>
+
+<script setup lang="ts">
+import Default from '@/layouts/default.vue'
+import Index from '@/pages/index.vue'
+</script>
