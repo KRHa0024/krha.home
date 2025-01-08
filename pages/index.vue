@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Hero />
     HelloWorld
     <div class="w-1/2 pt-40 mx-auto">
     <button class="btn btn-info">Info</button>
